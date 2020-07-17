@@ -18,3 +18,10 @@ h1 {
 .align-right {
     text-align: right;
 }
+
+@media only screen and (max-width: 992px){
+    .radio-inline{
+        display: block; /* ブロック要素にして改行されるように*/
+        margin: 0 !important; /* 余白を 0 に(強制的に) */
+    }
+}
